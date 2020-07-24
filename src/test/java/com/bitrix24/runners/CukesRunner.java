@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features="src/test/resources/features",
         glue="com/bitrix24/step_definitions",
-        dryRun=false
+        dryRun=false,
+        tags="@login"
 )
 public class CukesRunner {
 }
